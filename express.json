@@ -426,8 +426,9 @@
         "name": "EZTV",
         "enabled": true,
         "languages": ["en"],
-        "base_url": "https://eztv.io",
+        "base_url": "https://eztv.re",
         "fallback_urls": [
+            "https://eztvx.to",
             "https://eztv.re",
             "https://eztv.ag",
             "https://eztv.it",
