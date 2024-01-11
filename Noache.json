@@ -1,0 +1,22 @@
+{
+    "name": "PhunkedUPScrapers",
+    "description": "PhunkedUP express package",
+    "tutorial": "https://github.com/Vigmos/Syncler",
+    "support": "https://github.com/Vigmos/Syncler",
+    "website": "https://github.com/Vigmos/Syncler",
+    "packages": [
+        {
+            "manifest": "https://raw.githubusercontent.com/Vigmos/Syncler/main/PhunkedUP.json",
+            "description": "PhunkedUP express package."
+        }
+    ],
+    "cacheServers": [
+        "cache.bouncy.cc"
+    ],
+    "defaults": {
+        "packages": [
+            "https://raw.githubusercontent.com/Vigmos/Syncler/main/PhunkedUP.json"
+        ],
+        "cacheServer": "cache.bouncy.cc"
+    }
+}
