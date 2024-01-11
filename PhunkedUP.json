@@ -2,6 +2,6 @@
   "name": "PhunkedUP",
   "id": "PhunkedUP.express",
   "version": 1,
-  "url": "https://raw.githubusercontent.com/SynclerScrapers/OpenScrapers/main/express/openscraper.json",
+  "url": "https://raw.githubusercontent.com/Vigmos/Syncler/main/express.json",
   "type": "express"
 }
