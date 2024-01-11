@@ -1,9 +1,9 @@
 {
     "name": "SynclerScrapers",
-    "description": "External providers combined into one, easy to use vendor for use with Syncler",
-    "tutorial": "https://github.com/SynclerScrapers/vendor.synclerscrapers",
-    "support": "https://github.com/SynclerScrapers/vendor.synclerscrapers/issues",
-    "website": "https://github.com/SynclerScrapers/vendor.synclerscrapers",
+    "description": "PhunkedUP express package",
+    "tutorial": "https://github.com/Vigmos/Syncler",
+    "support": "https://github.com/Vigmos/Syncler",
+    "website": "https://github.com/Vigmos/Syncler",
     "packages": [
         {
             "manifest": "https://raw.githubusercontent.com/SynclerScrapers/OpenScrapers/main/express/manifest.openscraper.json",
