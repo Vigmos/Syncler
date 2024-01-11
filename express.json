@@ -671,7 +671,12 @@
         "base_url": "https://www.limetorrents.info",
         "fallback_urls": [
             "https://www.limetorrents.asia",
-            "https://www.limetorrents.zone"
+            "https://www.limetorrents.zone",
+            "https://www.limetorrents.co",
+            "https://www.limetor.com",
+            "https://www.limetor.pro",
+            "https://www.limetorrents.pro",
+            "https://limetorrents.unblockit.uno"
         ],
         "response_type": "text",
         "separator": "-",
