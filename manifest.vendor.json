@@ -1,13 +1,13 @@
 {
-    "name": "SynclerScrapers",
+    "name": "PhunkedUPScrapers",
     "description": "PhunkedUP express package",
     "tutorial": "https://github.com/Vigmos/Syncler",
     "support": "https://github.com/Vigmos/Syncler",
     "website": "https://github.com/Vigmos/Syncler",
     "packages": [
         {
-            "manifest": "https://raw.githubusercontent.com/SynclerScrapers/OpenScrapers/main/express/manifest.openscraper.json",
-            "description": "Express provider for Syncler by SynclerScrapers. It contains all the sources you will need in one package. Use this package on its own."
+            "manifest": "https://raw.githubusercontent.com/Vigmos/Syncler/main/PhunkedUP.json",
+            "description": "PhunkedUP express package."
         }
     ],
     "cacheServers": [
@@ -15,7 +15,7 @@
     ],
     "defaults": {
         "packages": [
-            "https://raw.githubusercontent.com/SynclerScrapers/OpenScrapers/main/express/manifest.openscraper.json"
+            "https://raw.githubusercontent.com/Vigmos/Syncler/main/PhunkedUP.json"
         ],
         "cacheServer": "cache.bouncy.cc"
     }
