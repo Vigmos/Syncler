@@ -1,7 +1,7 @@
 {
     "_manifest": {
-        "name": "PhunkedUP2",
-        "id": "PhunkedUP2.Express",
+        "name": "Torrentio",
+        "id": "Torrentio.Express",
         "version": 1,
         "classPath": "essential.ExpressProviderPackage",
         "permaUrl": "https://raw.githubusercontent.com/Vigmos/Syncler/main/express2.json"
