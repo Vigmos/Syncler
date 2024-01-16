@@ -1,10 +1,10 @@
 {
     "_manifest": {
-        "name": "PhunkedUP",
-        "id": "PhunkedUP.Express",
+        "name": "Test",
+        "id": "Test.Express",
         "version": 1,
         "classPath": "essential.ExpressProviderPackage",
-        "permaUrl": "https://raw.githubusercontent.com/Vigmos/Syncler/main/express.json"
+        "permaUrl": "https://raw.githubusercontent.com/Vigmos/Syncler/main/express2.json"
     },
 
 "torrentio":{
