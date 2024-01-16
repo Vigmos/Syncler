@@ -1,5 +1,5 @@
-"torrentio":{
-name":"Torrentio",
+torrentio":{
+"name":"Torrentio",
 "enabled":true,
 "languages":["en"],
 "base_url":"https:\/\/torrentio.strem.fun",
