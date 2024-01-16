@@ -21,48 +21,8 @@
 "query":"\/stream\/series\/{query}:{season}:{episode}.json",
 "keywords":"{imdbId}"
 },
-"json_format":{"results":"streams","hash":"infoHash","title":"title"},"title_replacement":{"\\n":" | ",".":"",":":"","'":"","&":"","\"":"","*":""},"original_package":"JakedUp - Express"},
+"json_format":{"results":"streams","hash":"infoHash","title":"title"},"title_replacement":{"\\n":" | ",".":"",":":"","'":"","&":"","\"":"","*":""
 
-
-    
-    "yourbittorrent": {
-        "name": "YourBittorent",
-        "enabled": true,
-        "languages": ["en"],
-        "base_url": "https://yourbittorrent.com",
-        "fallback_urls": [
-            "https://yourbittorrent2.com"
-        ],
-        "response_type": "text",
-        "movie": {
-            "keywords": "{title} {year}",
-            "query": "/?v=&c=1&q={query}"
-        },
-        "episode": {
-            "keywords": "{title} {episodeCode}",
-            "query": "/?v=&c=3&q={query}"
-        },
-        "season": {
-            "keywords": "{title} {seasonCode}",
-            "query": "/?v=&c=3&q={query}"
-        },
-        "anime": {
-            "keywords": "{title} {episode}",
-            "query": "/?v=&c=&q={query}"
-        },
-        "html_parser": {
-            "row": "doc.querySelectorAll('tr.table-default')",
-            "title": "row.querySelector('td:nth-child(2)').textContent",
-            "peers": "row.querySelector('td:nth-child(6)').textContent",
-            "seeds": "row.querySelector('td:nth-child(7)').textContent",
-            "size": "row.querySelector('td:nth-child(4)').textContent",
-            "url": "row.querySelector('td:nth-child(3) a:nth-child(3)').getAttribute('href')"
-        },
-        "title_replacement": {
-        "&": "",
-            "'": "",
-            ".": "",
-            ":": ""
         }
     }
 }
