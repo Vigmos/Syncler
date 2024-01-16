@@ -7,6 +7,24 @@
         "permaUrl": "https://raw.githubusercontent.com/Vigmos/Syncler/main/express.json"
     },
 
+torrentio":{
+"name":"Torrentio",
+"enabled":true,
+"languages":["en"],
+"base_url":"https:\/\/torrentio.strem.fun",
+"response_type":"json",
+"movie":{
+"query":"\/stream\/movie\/{query}.json",
+"keywords":"{imdbId}"
+},
+"episode":{
+"query":"\/stream\/series\/{query}:{season}:{episode}.json",
+"keywords":"{imdbId}"
+},
+"json_format":{"results":"streams","hash":"infoHash","title":"title"},"title_replacement":{"\\n":" | ",".":"",":":"","'":"","&":"","\"":"","*":""},"original_package":"JakedUp - Express"},
+
+
+    
     "extratorrent": {
         "name": "ExtraTorrent",
         "enabled": true,
