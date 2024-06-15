@@ -335,10 +335,10 @@
         "name": "TorrentGalaxy",
         "enabled": true,
         "languages": ["en"],
-        "base_url": "https://torrentgalaxy.to",
+        "base_url": "https://torrentgalaxy.ws",
         "fallback_urls": [
             "https://torrentgalaxy.org",
-            "https://torrentgalaxy.pw"
+            "https://torrentgalaxy.to"
         ],
         "response_type": "text",
         "separator": "+",
