@@ -1,4 +1,4 @@
-{"_manifest":{"name":"JakedUp - Express Hybrid","id":"com.jakedup.hybrid","version":1741495608,"classPath":"","permaUrl":"https://jakedup.com/syncler/express","type":"express"},
+{"_manifest":{"name":"JakedUp & Magnify combined","id":"com.jakedup.hybrid","version":1741495608,"classPath":"","permaUrl":"https://jakedup.com/syncler/express","type":"express"},
 
 
 "comet":{"name":"Comet","type_":"public server","base_url":"https://magnify.pages.dev/scraper/comet","response_type":"json","movie":{"query":"/stream/movie/{query}.json","keywords":"{imdbId}"},"episode":{"query":"/stream/series/{query}:{season}:{episode}.json","keywords":"{showImdbId}"},"anime":{"query":"/stream/anime/{query}:{season}:{episode}.json","keywords":"{title}"},"json_format":{"results":"streams","title":"description","size":"behaviorHints.videoSize","hash":"infoHash"}},
