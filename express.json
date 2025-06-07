@@ -1,5 +1,4 @@
-//For personal use only. This is not my work. Providers are credited to Jakedup and Magnify.
-{"_manifest":{"name":"JakedUp & Magnify combined","id":"com.SicMundus.express","version":1741495608,"classPath":"","permaUrl":"","type":"express"},
+{"_manifest":{"name":"JakedUp & Magnify combined for personal use only. This is not my work. Providers are credited to Jakedup and Magnify.","id":"com.SicMundus.express","version":1741495608,"classPath":"","permaUrl":"","type":"express"},
 
 
 "comet":{"name":"Comet","type_":"public server","base_url":"https://magnify.pages.dev/scraper/comet","response_type":"json","movie":{"query":"/stream/movie/{query}.json","keywords":"{imdbId}"},"episode":{"query":"/stream/series/{query}:{season}:{episode}.json","keywords":"{showImdbId}"},"anime":{"query":"/stream/anime/{query}:{season}:{episode}.json","keywords":"{title}"},"json_format":{"results":"streams","title":"description","size":"behaviorHints.videoSize","hash":"infoHash"}},
