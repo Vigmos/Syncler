@@ -16,6 +16,7 @@
     "defaults": {
         "packages": [
             "https://raw.githubusercontent.com/Vigmos/Syncler/main/PhunkedUP.json"
+            "https://raw.githubusercontent.com/Vigmos/Syncler/main/manifest.vendor2.json"
         ],
         "cacheServer": "cache.bouncy.cc"
     }
