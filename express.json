@@ -3,10 +3,10 @@
 
 "comet":{"name":"Comet","type_":"public server","base_url":"https://magnify.pages.dev/scraper/comet","response_type":"json","movie":{"query":"/stream/movie/{query}.json","keywords":"{imdbId}"},"episode":{"query":"/stream/series/{query}:{season}:{episode}.json","keywords":"{showImdbId}"},"anime":{"query":"/stream/anime/{query}:{season}:{episode}.json","keywords":"{title}"},"json_format":{"results":"streams","title":"description","size":"behaviorHints.videoSize","hash":"infoHash"}},
 
-"zilean-dmm":{"name":"DMM","type_":"public server","base_url":"https://magnify.pages.dev/scraper/dmm","response_type":"json","movie":{"query":"/?imdbid={query}","keywords":"{imdbId}"},"episode":{"query":"/?imdbid={query}&season={season}&episode={episode}","keywords":"{showImdbId}"},"json_format":{"title":"raw_title","size":"size","hash":"info_hash"}},  
+"zilean-dmm":{"name":"DMM","type_":"public server","base_url":"https://magnify.pages.dev/scraper/dmm","response_type":"json","movie":{"query":"/?imdbid={query}","keywords":"{imdbId}"},"episode":{"query":"/?imdbid={query}&season={season}&episode={episode}","keywords":"{showImdbId}"},"json_format":{"title":"raw_title","size":"size","hash":"info_hash"}},
 
 "mediafusion":{"name":"MediaFusion","type_":"public server","base_url":"https://magnify.pages.dev/scraper/mediafusion","response_type":"json","movie":{"query":"/stream/movie/{query}.json","keywords":"{imdbId}"},"episode":{"query":"/stream/series/{query}:{season}:{episode}.json","keywords":"{showImdbId}"},"anime":{"query":"/stream/series/{query}:{season}:{episode}.json","keywords":"{showImdbId}"},"json_format":{"results":"streams","title":"description","hash":"infoHash"}},
-  
+
 "torrentio":{"name":"Torrentio","enabled":true,"languages":["en"],"base_url":"https://torrentio.strem.fun","response_type":"json","movie":{"query":"/stream/movie/{query}.json","keywords":"{imdbId}"},"episode":{"query":"/stream/series/{query}:{season}:{episode}.json","keywords":"{showImdbId}"},"json_format":{"results":"streams","title":"title","hash":"infoHash"},"original_package":"JakedUp - Express Custom"},
 
 "superflix":{"name":"Superflix","enabled":true,"languages":["en"],"base_url":"https://23dfbfad8cb2-stremio-addon-superflix.baby-beamup.club","response_type":"json","movie":{"query":"/stream/movie/{query}.json","keywords":"{imdbId}"},"episode":{"query":"/stream/series/{query}:{season}:{episode}.json","keywords":"{showImdbId}"},"json_format":{"results":"streams","title":"description","quality":"name","url":"url"},"original_package":"JakedUp - Express Custom"},
@@ -90,39 +90,3 @@
 "digbt":{"name":"DIGBT","enabled":false,"languages":["en"],"base_url":"https://digbt.unblocked.nz","fallback_urls":["https://www.digbt.org"],"response_type":"text","movie":{"query":"/search/{query}-length-1/","keywords":"{title} {year}"},"episode":{"query":"/search/{query}-length-1/?c=video&s=length&u=None","keywords":"{title} {episodeCode}"},"season":{"query":"/search/{query}-length-1/","keywords":"{title} {seasonCode}"},"anime":{"query":"/search/{query}-length-1/?c=video&s=length&u=None","keywords":"{title} {episode}"},"html_parser":{"row":"doc.querySelectorAll('.x-item')","title":"row.querySelector('a.title').textContent","peers":null,"seeds":null,"size":"row.querySelector('.tail').textContent.match(/Size: (.*) D/)[1]","url":"row.querySelector('div.tail > a').getAttribute('href')"},"title_replacement":{".":"",":":"","'":"","&":""},"original_package":"Orion - Syncler"},
 
 "corsarored":{"name":"Corsaro.red","enabled":false,"languages":["it"],"base_url":"https://corsaro.red/api/search","method":"POST","http_method":"POST","response_type":"json","movie":{"query":"{\"term\":\"{query}\",\"category\":\"2\"}","keywords":["{title.it} {year}","{title.original} {year}"]},"episode":{"query":"{\"term\":\"{query}\",\"category\":\"1\"}","keywords":["{title.it} {episodeCode}","{title.original} {episodeCode}"]},"season":{"query":"{\"term\":\"{query}\",\"category\":\"1\"}","keywords":["{title.it} {seasonCode}","{title.original} {seasonCode}"]},"anime":{"query":"{\"term\":\"{query}\",\"category\":\"7\"}","keywords":["{title.it} {episodeCode}","{title.original} {episodeCode}"]},"json_format":{"results":"results","url":"magnet","title":"title","seeds":"seeders","peers":"leechers","size":"size","quality":"description"},"original_package":"Aki07 - Unified"}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
